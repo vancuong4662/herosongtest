@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.sidebar-button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 23px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#game-area {
+  margin: 0;
+  padding: 0;
+}
+
+#chat-box-area {
+  width: auto;
+  min-width: 356px;
+  height: 600px;
+  background-color: #1a3008;
+  color: white;
+}
+
+#message-box-area {
+  overflow-y: scroll;
+  height: 560px;
+  font-family: 'Mulish', sans-serif;
+}
+
+#testbox {
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 64px;
+  left: 300px;
+}

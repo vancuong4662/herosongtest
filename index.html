@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="battle_scene_css.css">
+  <title>Hero Song</title>
+</head>
+<body>
+  <br>
+  <div class="w3-row">
+    <!--Menu (Sidebar)-->
+    <div class="w3-col l2 w3-black" id="sidebar" style="height: 600px;">
+      <div class="w3-col">
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-home w3-col l3"></i></h2>
+            <span class="w3-col l9">Trang Chủ</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-usd w3-col l3"></i></h2>
+            <span class="w3-col l9">Nạp tiền</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-cube w3-col l3"></i></h2>
+            <span class="w3-col l9">Túi chứa đồ</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-user-plus w3-col l3"></i></h2>
+            <span class="w3-col l9">Chiêu mộ mới</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-wrench w3-col l3"></i></h2>
+            <span class="w3-col l9">Nâng cấp</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-question w3-col l3"></i></h2>
+            <span class="w3-col l9">Nhiệm vụ</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-map-marker w3-col l3"></i></h2>
+            <span class="w3-col l9">Chuyển khu vực</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-refresh w3-col l3"></i></h2>
+            <span class="w3-col l9">Đổi mật khẩu</span>
+          </div>
+        </div>
+        
+        <div class="w3-row">
+          <div class="w3-bar w3-button w3-black w3-left-align sidebar-button w3-row">
+            <h2 class="w3-center"><i class="fa fa-sign-out w3-col l3"></i></h2>
+            <span class="w3-col l9">Đăng xuất</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Game Zone-->
+    <div id="testbox">
+      Bấm nút Space để test thử!
+    </div>
+    <div class="w3-col l10 flex-container">
+      <div id="game-area">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+      </div>
+      <div id="chat-box-area">
+
+        <div id="message-box-area">
+          <div class="w3-container w3-padding">
+            <p><b class="w3-text-red"><i class="fa fa-bell-o"></i> Thông báo : </b> Bạn vừa vào chế độ chiến đấu của game. Hãy tận hưởng trò chơi.</p>
+            <p><b class="w3-text-red"><i class="fa fa-map"></i> Hướng dẫn : </b> Các nhân vật của bạn sẽ tự động tham gia vào cuộc hành trình. Các kẻ địch sẽ được ngẫu nhiên tìm thấy. Sau khi trận chiến kết thúc, hệ thống sẽ nhận phần thưởng và tiếp tục quy trình tự động này.</p>
+            <p><b class="w3-text-red"><i class="fa fa-mail-forward"></i> Tiến độ : </b> Đang trên đường thám hiểm...</p>
+            ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>
+            ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>
+            ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>
+            ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>ABC<br>
+          </div>
+        </div>
+        
+        <div class="w3-bar w3-row">
+          <input class="w3-bar-item w3-col l9">
+          <button class="w3-bar-item w3-col l3 w3-button w3-black">Chat</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="sprite_lib.js"></script>
+  <script type="module" src="battle_scene.js"></script>
+</body>
+</html>
